@@ -1,15 +1,15 @@
 ## 1.feladat
 
 def intervallum():
-
-    szam1 = int(input("Adj meg egy [200, 920] intervallumban lévő egész számot: "))
-
-    if 200 <= szam1 <= 920:
-        elso = int(str(szam1)[0])
-        print("Az első számjegy:", elso)
-    else:
-        print("Hiba: A megadott szám nincs az [200, 920] intervallumban.")
-
+    
+    while True:
+        szam1 = int(input("Adj meg egy [200, 920] intervallumban lévő egész számot: "))
+        if 200 <= szam1 <= 920:
+            elso = int(str(szam1)[0])
+            print("Az első számjegy:", elso)
+            break
+        else:
+            print("Hiba: A megadott szám nincs az [200, 920] intervallumban. Kérem, adjon meg egy másik számot.")
 
 
 ## 4.feladat
