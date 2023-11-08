@@ -47,7 +47,7 @@ def harmadik():
         i+=1
 """
 4. generálj egy véletlen számot 1 és 10 között 
-szorozd m eg 3-mal
+szorozd meg 3-mal
 vonj ki belőle 15-öt
 oszd el 6-tal 
 szorozd be 2-vel
@@ -57,8 +57,27 @@ A program írja ki, hogy az eredmény egyenlő-e 5-tel
 """
 def negyedik():
     i:int = 0
-    szam:int = math.floor (random.random()*+)
-    print(szam, end=" ")
+    szam:int = math.floor(random.random()*9+1)
+    
+    szorzas = szam * 3
+    print(szorzas, end=", ")
+    
+    kivonas = szorzas - 15
+    print(kivonas, end=", ")
+    
+    osztas = kivonas / 6
+    print(osztas, end=", ")
+    
+    szorzas2 = osztas * 2
+    print(szorzas2, end=", ")
+    
+    kivonas2 = szorzas2 - szam
+    print(kivonas2, end=", ")
+
+    if kivonas2 == 5:
+        print(f"{kivonas2} egyenlő 5-tel")
+    else:
+        print(f"{kivonas2} nem egyenlő 5-tel")
     i+=1
 
 

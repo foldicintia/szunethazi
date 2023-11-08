@@ -23,4 +23,4 @@ gyakorlas.veletlen()
 gyakorlas.elso()
 gyakorlas.masodik()
 gyakorlas.harmadik()"""
-
+gyakorlas.negyedik()
